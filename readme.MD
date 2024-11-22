@@ -46,3 +46,12 @@ This module is developed for joindevops.com
 * is_peering_required (optional): default value is false. Type is bool.
 * acceptor_vpc_id (optional): Default value is empty, default VPC ID would be taken. Type is string.
 * vpc_peering_tags (optional): Default value is empty. Type is map.
+
+
+#### outputs ####
+* vpc_id: VPC ID
+* public_subnet_ids: A list of 2 database subnet Ids created.
+* database_subnet_ids : A list of  2 database subnet ids created
+* private_subnet_ids : A list of 2 private subnet ids created
+* database_subnet_group_id : A database subnet group ID created.
+* igw_id: interenet gateway created.
